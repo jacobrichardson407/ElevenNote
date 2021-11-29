@@ -47,8 +47,6 @@ namespace ElevenNote.Data
     }
     public class IdentityUserLoginConfiguration : EntityTypeConfiguration<IdentityUserLogin>
     {
-        private object iul;
-
         public IdentityUserLoginConfiguration()
         {
             HasKey(iul => iul.UserId);
